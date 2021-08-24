@@ -2,7 +2,7 @@
 
 An way to display for the end-users what will happen after update the column.
 
-![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/master/Images/control-demo.gif)
+![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/main/Images/control-demo.gif)
 
 ### Enable to 
 - Whole.None
@@ -23,12 +23,12 @@ An way to display for the end-users what will happen after update the column.
 
 ### The Component
 
-![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/master/Images/control-add.png)
+![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/main/Images/control-add.png)
 
 - Column: **All Record Types**, required use this option.
 - Content Level: define if the event type will be displayed or not
 
-![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/master/Images/control-config.png)
+![alt text](https://github.com/VinnyDyn/WhatWillHappen/blob/main/Images/control-config.png)
 
 ### Features
 - Retrieve all active workflows (workflows) and steps (sdkmessageprocessingstep) where table + column are defined as trigger;
