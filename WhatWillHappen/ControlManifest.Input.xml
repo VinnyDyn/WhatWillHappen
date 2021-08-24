@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="VinnyBComponents" constructor="WhatWillHappen" version="0.0.1" display-name-key="What Will Happen" description-key="WhatWillHappen description" control-type="standard" preview-image="img/WhatWillHappen.png">
+    <type-group name="allColumnTypes">
+      <type>Whole.None</type>
+      <type>TwoOptions</type>
+      <type>DateAndTime.DateOnly</type>
+      <type>DateAndTime.DateAndTime</type>
+      <type>Decimal</type>
+      <type>FP</type>
+      <type>Multiple</type>
+      <type>Currency</type>
+      <type>OptionSet</type>
+      <type>SingleLine.Email</type>
+      <type>SingleLine.Text</type>
+      <type>SingleLine.TextArea</type>
+      <type>SingleLine.URL</type>
+      <type>SingleLine.Ticker</type>
+      <type>SingleLine.Phone</type>
+    </type-group>
+    <property name="column" display-name-key="Column-Key" description-key="Description-Key" of-type-group="allColumnTypes" usage="bound" required="true" />
+
+    <property description-key="Content Level" display-name-key="Content Level" name="content_level" required="true" usage="input" of-type="Enum">
+      <value name="Simple" display-name-key="Simple">0</value>
+      <value name="Detailed" display-name-key="Detailed">1</value>
+    </property> 
+
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/WhatWillHappen.css" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
