@@ -34,4 +34,4 @@ An way to display for the end-users what will happen after update the column.
 - Retrieve all active workflows (workflows) and steps (sdkmessageprocessingstep) where table + column are defined as trigger;
 
 #### Ready to use
-The [managed]() solution is ideal for non developers. Import and use.
+The [managed](https://github.com/VinnyDyn/StatusReasonKanban/releases/tag/2.2.0.0) solution is ideal for non developers. Import and use.
